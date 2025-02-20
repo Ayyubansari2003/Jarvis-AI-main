@@ -49,7 +49,12 @@ function takeCommand(message) {
         speak("Hello Sir, How May I Help You?");
         
      } if (message.includes('who is your master') || message.includes('who is created you')) {
-            speak("he is very genius the master  Ayyub Ansari ");
+            speak(" Ayyub Ansari ");
+
+        } if (message.includes('Assalamu alaikkum') || message.includes('...')) {
+            speak(" Va alaikkum salaam ");
+
+       
         
         
 
